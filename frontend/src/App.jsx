@@ -4,7 +4,7 @@ import "./App.css";
 import TaskForm from "./components/TaskForm";
 import TaskCard from "./components/TaskCard";
 
-const API = "http://localhost:5000/api/tasks";
+const API = "https://task-tracker-dtlq.onrender.com/api/tasks";
 
 function App() {
   const [tasks, setTasks]   = useState([]);
